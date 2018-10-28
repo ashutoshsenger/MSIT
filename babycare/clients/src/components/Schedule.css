@@ -1,0 +1,28 @@
+.pdfbutton{
+	background-color: red;
+	color: white;
+	width: 150px;
+	border:none;
+	border-radius: 4px;
+	height: 50px;
+}
+#txtName{
+	border-color: red;
+     margin-bottom: 15px;
+}
+	#thullu
+	{
+		border-color: red;
+		margin-bottom:15px;
+	}
+
+	#button-id{
+		background: none;
+		border:none;
+		border-radius: 4px;
+		background-color: red;
+		color: white;
+		font-size: 17px;
+		height: 40px;
+		width: 125px;
+	}

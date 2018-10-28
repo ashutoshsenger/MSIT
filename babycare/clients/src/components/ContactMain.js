@@ -9,7 +9,7 @@ import React, { Component } from 'react';
               <div  className="row">
                 <div  className="col-md-6">
                   <h2  className="font-weight-bold">- Contact Us</h2>
-                  <p  className="custom-opacity-font">contact/mail us for any queries</p>
+                  <p  className="custom-opacity-font" style={{fontSize:20+'px',color:"#e60000"}}>contact/mail us for any queries</p>
                   <div  className="col-md-6 pl-none">
                     <h4  className="mb-xs">Call Us</h4>
                     <a href="tel:+1234567890"  className="text-decoration-none" title="Call Us">
@@ -23,7 +23,7 @@ import React, { Component } from 'react';
                   </div>
                   <div  className="col-md-6 pl-none custom-sm-margin-top">
                     <h4  className="mb-xs">Our Location</h4>
-                    <p  className="custom-opacity-font">New Delhi</p>
+                    <p  style={{fontSize:20+'px',color:"#e60000"}} className="custom-opacity-font">New Delhi</p>
                   </div>
                   <div  className="col-md-6 pl-none">
                     <h4  className="mb-xs">Mail Us</h4>
@@ -70,7 +70,7 @@ import React, { Component } from 'react';
                         <div  className="col-md-12">
                           <div  className="custom-input-box">
                             <i  className="icon-user icons text-color-primary"></i>
-                            <input type="text" value="" data-msg-required="Please enter your name." maxlength="100"  className="form-control" name="name" id="name" placeholder="Name*" required />
+                            <input style={{borderColor:"#e60000"}} type="text" value="" data-msg-required="Please enter your name." maxlength="100"  className="form-control" name="name" id="name" placeholder="Name*" required />
                           </div>
                         </div>
                       </div>
@@ -80,7 +80,7 @@ import React, { Component } from 'react';
                         <div  className="col-md-12">
                           <div  className="custom-input-box">
                             <i  className="icon-envelope icons text-color-primary"></i>
-                            <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100"  className="form-control" name="email" id="email" placeholder="Email*" required />
+                            <input style={{borderColor:"#e60000"}} type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100"  className="form-control" name="email" id="email" placeholder="Email*" required />
                           </div>
                         </div>
                       </div>
@@ -90,14 +90,14 @@ import React, { Component } from 'react';
                         <div  className="col-md-12">
                           <div  className="custom-input-box">
                             <i  className="icon-bubble icons text-color-primary"></i>
-                            <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10"  className="form-control" name="message" id="message" placeholder="Message*" required></textarea>
+                            <textarea style={{borderColor:"#e60000"}} maxlength="5000" data-msg-required="Please enter your message." rows="10"  className="form-control" name="message" id="message" placeholder="Message*" required></textarea>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div  className="row">
                       <div  className="col-md-12">
-                        <input type="submit" value="Submit Now"  className="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase" data-loading-text="Loading..."/>
+                        <input style={{borderColor:"#e60000"}} type="submit" value="Submit Now"  className="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase" data-loading-text="Loading..."/>
                       </div>
                     </div>
                   </form>

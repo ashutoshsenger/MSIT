@@ -178,11 +178,10 @@ class DoctorChat extends Component {
    <div className="chatheader">
 
    <div className="row">
-    <div className="col-sm-2">
+    <div className="col-sm-3">
     <img className="headerpic" src={one} alt=""></img>
-    <h1 className="name">Doctor</h1>
     </div>
-    <div className="col-sm-3"></div>
+    <div className="col-sm-4"><h1 className="name">Doctor</h1></div>
     <div className="col-sm-7"></div>
    </div>
 

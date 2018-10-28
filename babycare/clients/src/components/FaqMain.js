@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Classes from './FaqMain.css';
 class FaqMain extends Component {
   render(){
     return(

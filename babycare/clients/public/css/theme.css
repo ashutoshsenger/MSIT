@@ -2293,7 +2293,10 @@ aside ul.nav-list > li > a {
 
 /* Home Slider - Revolution Slider */
 .slider-container {
-	background: #171717;
+	background-image: url('../img/op.jpg');
+
+
+
 	height: 500px;
 	overflow: hidden;
 	width: 100%;

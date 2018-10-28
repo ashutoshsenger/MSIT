@@ -65,7 +65,8 @@ class Navbar extends Component {
                                   ) : (
 
 
-                                        <li><Link to="/signup">Login/Register</Link></li>
+                                        <li><Link to="/signin">Login</Link>
+                                         <Link to="/signup">Register</Link></li>
 
 
 

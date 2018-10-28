@@ -23,7 +23,7 @@ if (localStorage.jwtToken) {
 const App = () => (
   <Provider store={store}>
     <Router>
-      <div className="onboarding">
+      <div className="onboarding" style={{marginTop:125+'px'}}>
         <Navbar />
         <Main />
         <Footer />

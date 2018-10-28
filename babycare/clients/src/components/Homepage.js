@@ -9,53 +9,7 @@ class Homepage extends Component {
         <div role="main" className="main">
     			<div className="slider-container rev_slider_wrapper"
     				>
-    				<div id="revolutionSlider" className="slider rev_slider"
-    					data-plugin-revolution-slider
-    					data-plugin-options="{'delay': 9000, 'gridwidth': 800, 'gridheight': 600}">
-    					<ul>
-    						<li data-transition="fade"><img src="img/team/op.jpg" alt=""
-    							data-bgposition="center center" data-bgfit="cover"
-    							data-bgrepeat="no-repeat" data-kenburns="on" data-duration="9000"
-    							data-ease="Linear.easeNone" data-scalestart="115"
-    							data-scaleend="100" data-rotatestart="0" data-rotateend="0"
-    							data-offsetstart="0 -200" data-offsetend="0 200"
-    							data-bgparallax="0 089"
-    									className="rev-slidebg" />
-
-    							<div
-    								className="tp-caption tp-caption-overlay tp-caption-overlay-primary main-label"
-    								data-x="center" data-y="265" data-start="1000"
-    								data-whitespace="nowrap" data-transform_in="y:[100%];s:500;"
-    								data-transform_out="opacity:0;s:500;"
-    								data-mask_in="x:0px;y:0px;">BABYCARE</div>
-
-    							<div className="tp-caption tp-caption-overlay-opacity bottom-label"
-    								data-x="center" data-y="358" data-start="2000"
-    								data-transform_in="y:[100%];opacity:0;s:500;">boon to
-    								every young one</div>
-                </li>
-    						<li data-transition="fade"><img src="img/team/grp.jpg" alt=""
-    							data-bgposition="center center" data-bgfit="cover"
-    							data-bgrepeat="no-repeat" data-kenburns="on" data-duration="9000"
-    							data-ease="Linear.easeNone" data-scalestart="115"
-    							data-scaleend="100" data-rotatestart="0" data-rotateend="0"
-    							data-offsetstart="0 400px" data-offsetend="0 -400px"
-    							data-bgparallax="0" className="rev-slidebg" />
-
-    							<div
-    								className="tp-caption tp-caption-overlay tp-caption-overlay-primary main-label"
-    								data-x="center" data-y="265" data-start="1000"
-    								data-whitespace="nowrap" data-transform_in="y:[100%];s:500;"
-    								data-transform_out="opacity:0;s:500;"
-    								data-mask_in="x:0px;y:0px;">FIGHTERS</div>
-
-    							<div className="tp-caption tp-caption-overlay-opacity bottom-label"
-    								data-x="center" data-y="358" data-start="2000"
-    								data-transform_in="y:[100%];opacity:0;s:500;">THE LIFE
-    								SEEKERS</div>
-                </li>
-    					</ul>
-    				</div>
+    				
     			</div>
     			<div id="modules">
     				<br/> <br/> <br/> <br/>
@@ -164,8 +118,7 @@ class Homepage extends Component {
     									<div className="tab-pane" id="tabsNavigationSimpleIcons2">
     										<div className="center">
     											<p>
-    												connecting patients to helpers who will help patients to get
-    												immunised completely<br/> <b>Coming Soon</b>
+    												For user who don't own a smart phone can get vaccination reminders via this module on any type of phone that supports messaging.User will have to send the namedate of birth (dd-mm-yy) to a registered number like - 561616 ,to avail the service<br/> <b>Coming Soon</b>
     											</p>
     										</div>
     									</div>

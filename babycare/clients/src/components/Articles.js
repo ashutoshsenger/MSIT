@@ -79,12 +79,12 @@ class Articles extends Component {
 
                 return(
 
-                  <div>
-                          <img src={x.urlToImage} />
+                  <div className="container" >
+                          <img style={{width:500+'px'}} src={x.urlToImage} />
                           <div className="details">
                             <h1>{x.title}</h1>
                             <h3>By - {x.source.name}</h3>
-                            <p key={x.source.id}>{x.content}</p>
+                            <p style={{color:"#fff"}} key={x.source.id}>{x.content}</p>
                             <a href={x.url}>Read Full Article at :- <br/>{x.url}</a>
                             <br/>
                           </div><br/>

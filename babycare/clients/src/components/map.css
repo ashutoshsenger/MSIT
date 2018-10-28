@@ -26,8 +26,11 @@
        display: inline;
      }
       #pac-card{
-        width: 80%;
-        position: relative;
+        width: 99%;
+        position: fixed;
+        z-index: 5;
+
+        margin-top:-55px;
         top:4.5em !important;
         left:1em !important;
       }

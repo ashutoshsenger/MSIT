@@ -28,7 +28,7 @@ class FactMain extends Component {
 
       				</div>
       				<div className="col-lg-6 col-sm-pull-6  col-sm-7">
-      					<img className="img-responsive" src="img/team/vacc work 2014.jpeg"
+      					<img className="img-responsive" src="img/team/vaccwork.jpeg"
       						alt="" width="600" height="400"/>
 
       				</div>
@@ -63,7 +63,7 @@ class FactMain extends Component {
       				</div>
 
       				<div className="col-lg-20 col-lg-offset-5 col-sm-20">
-      					<img className="img-responsive" src="img/team/polio fact.jpeg" alt=""
+      					<img className="img-responsive" src="img/team/poliofact.jpeg" alt=""
       						width="900" height="600"/>
 
 
